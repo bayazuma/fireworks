@@ -1,0 +1,20 @@
+{
+  "name": "fireworks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bayazuma",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ../"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.2",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.9",
+    "three": "^0.133.1"
+  }
+}
